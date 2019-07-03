@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const myid = ['283880597095710721'];
-const prefix = ['-'];
+const prefix = ['!!'];
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -98,7 +98,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit SPAM, SPAM,SPAM,SPAM,, EZZ BROTHA,, FARM CREDIT BY ZYX,, $$فلوووسسس ,, سبام ,, سبام ,, سبام ,, من قبل زياد**[ " ${x} " ]`)
+        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -129,7 +129,3 @@ if (!rank) return message.reply(' ')
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
-client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4);
-client5.login(process.env.TOKEN5);
-client6.login(process.env.TOKEN6);
